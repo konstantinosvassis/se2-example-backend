@@ -8,7 +8,7 @@ jobs:
     steps: 
       - name: Checkout repo
         uses: actions/checkout@v3
-      - name: Install dependancied
+      - name: Install dependancies
         run: npm install
       - name: Run test
         run: npm test
